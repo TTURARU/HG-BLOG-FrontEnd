@@ -1,0 +1,176 @@
+#auth__wrapper{
+    padding: 100px 0px 150px;
+    min-width: 1440px;
+    height: calc(100vh - 68px - 100px - 150px);
+    min-height: 960px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-image: url(assets/images/back-ground-img.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.auth__container{
+    width: 1200px;
+    height: 100%;
+
+    display: grid;
+    grid-template-columns: 7fr 5fr;
+    column-gap: 78px;
+}
+
+.auth__screen-box{
+    grid-column: 1 / 2;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.auth__screen-contents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.auth__logo-icon{
+    width: 100px;
+    height: 100px;
+    background-image: url(assets/images/logo-dark.png);
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+
+.auth__screen-text-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.auth__screen-text{
+    color: rgba(0,0,0,1);
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -1.2px;
+    text-align: center;
+
+    font-family: PyeongChangPeace-Bold;
+}
+
+.auth__card{
+    grid-column: 2 / 3;
+    border-radius: 10px;
+    padding: 50px 50px 30px;
+    background-color: rgba(255,255,255,1);
+    box-shadow: 0px 4px 47px 0px rgba(0,0,0,0.25);
+}
+
+.auth__card-box{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.auth__card-top{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.auth__card-title-box{
+    display: flex;
+    justify-content: space-between;
+}
+
+.auth__card-title{
+    color: rgba(0,0,0,1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.auth__card-page{
+    color: rgba(0, 0, 0, 0.7);
+
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.auth__card-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.auth__login-error-box{
+    margin-bottom: -4px;
+}
+
+.auth__login-error-message{
+    color: rgba(255, 0, 0, 0.8);
+    font-size: 13px;
+    font-weight: 800;
+    line-height: 140%;
+
+    white-space: pre-wrap;
+}
+
+.auth__description-box{
+    display: flex;
+    justify-content: center;
+}
+
+.auth__description{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.auth__description-link{
+    color: rgba(0,0,0,1);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.auth__consent-box{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.auth__check-box{
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+.auth__consent-title{
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.auth__consent-title-error{
+    color: rgba(255, 0, 0, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.auth__consent-link{
+    color: rgba(0, 0, 0, 1);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 140%;
+}
