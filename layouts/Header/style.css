@@ -1,0 +1,68 @@
+#header{
+    padding: 20px 0;
+
+    display: flex;
+    justify-content: center;
+
+    background-color: rgba(0,0,0,0.9);
+}
+
+.header__container{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__left-box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    cursor: pointer;
+}
+
+.header__logo{
+    color: rgba(255,255,255,1);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.4px;
+
+    font-family: PyeongChangPeace-Bold;
+}
+
+.header__right-box{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+
+.header__search-button__input-box{
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 43px;
+    padding: 0 10px 0 12px;
+    width: 223px;
+    height: 30px;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    background-color: rgba(255,255,255,1);
+}
+
+.header__search-button__input{
+    flex: 1;
+
+    border: none;
+    background: none;
+    outline: none;
+
+    color: rgba(0,0,0,1);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 140%;
+}
+
