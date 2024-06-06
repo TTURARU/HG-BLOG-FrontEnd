@@ -1,0 +1,116 @@
+#main-top__wrapper{
+    padding: 80px 0 40px;
+    display: flex;
+    justify-content: center;
+
+    background-repeat: no-repeat;
+    background-image: url(assets/images/main-back-img.jpeg);
+    background-size: 100%;
+    background-position: 80% 80%;
+}
+
+.main-top__container{
+    width: 1200px;
+    min-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+}
+
+.main-top__title{
+    color: rgba(0, 0, 0, 1);
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: -0.8px;
+
+    white-space: pre-wrap;
+
+    font-family: PyeongChangPeace-Bold;
+}
+
+.main-top__contents-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+
+.main-top__contents{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+#main-bottom__wrapper{
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.055);
+}
+
+.main-bottom__container{
+    width: 1350px;
+    min-width: 1350px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.main-bottom__title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+
+}
+
+.main-bottom__contents-box{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8fr 4fr;
+    gap: 24px;
+}
+
+.main-bottom__current-contents{
+    grid-column: 1 / 2;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.main-bottom__popular-box{
+    grid-column: 2 / 3;
+}
+
+.main-bottom__popular-card{
+    padding: 24px;
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.main-bottom__popular-card__container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.main-bottom__popular-card__title{
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.main-bottom__popular-card__contents{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.main-bottom__pagination-box{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}

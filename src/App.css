@@ -1,0 +1,325 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.app__divider{
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    width: 100%;  
+}
+
+.app__emphasis{
+    font-weight: bolder;
+}
+
+.app__word-badge{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    border-radius: 30px;
+    padding: 6px 20px;
+
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.app__word-badge:hover{
+    background-color: rgba(0, 0, 0, 0.03);
+    cursor: pointer;
+}
+
+.app__black-button{
+    border-radius: 46px;
+    width: 95px;
+    height: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(0, 0, 0, 1);
+
+    color: rgba(255,255,255,1);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+
+    cursor: pointer;
+}
+
+.app__black-button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.app__black-large-full-button{
+    border-radius: 46px;
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 1);
+    color: rgba(255,255,255,1);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 140%;
+    cursor: pointer;
+}
+
+.app__black-large-full-button:hover{
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.app__disable-button{
+    border: 1px solid rgba(255,255,255,0.85);
+    border-radius: 46px;
+    width: 93px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgb(105, 105, 105);
+
+    color: rgba(255,255,255,1);
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 140%;
+
+    cursor: not-allowed;
+}
+
+.app__white-button{
+    border: 1px solid rgba(0,0,0,0.5);
+    border-radius: 46px;
+    width: 93px;
+    height: 28px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255,255,255,1);
+
+    color: rgba(0,0,0,0.8);
+
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 140%;
+
+    cursor: pointer;
+}
+
+.app__white-button:hover{
+    background-color: rgba(255,255,255,0.85);
+}
+
+.app__icon-box{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__icon-box-small{
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__icon-box-large{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app__icon-button{
+    border-radius: 50% 50%;
+
+    width: 24px;
+    height: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}
+
+.app__icon-button:hover{
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.app__icon{
+    width: 100%;
+    height: 100%;
+
+    background-position: 50% 50%;
+    background-size: 100% 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.app__eye-light-off-icon{
+  background-image: url(assets/images/eye-light-off.png);
+}
+
+.app__eye-light-on-icon{
+  background-image: url(assets/images/eye-light-on.png);
+}
+
+.app__expand-right-light-icon{
+  background-image: url(assets/images/expand-right-light.png);
+}
+
+.app__expand-left-light-icon{
+  background-image: url(assets/images/expand-left-light.png);
+}
+
+.app__expand-right-icon{
+  background-image: url(assets/images/expand-right.png);
+}
+
+.app__expand-left-icon{
+  background-image: url(assets/images/expand-left.png);
+}
+
+.app__logo-light-icon{
+  background-image: url(assets/images/logo-light.png);
+}
+
+.app__insta-icon{
+  background-image: url(assets/images/insta.png);
+}
+
+.app__naver-blog-icon{
+  background-image: url(assets/images/naver-blog.png);
+}
+
+.app__logo-dark-icon{
+  background-image: url(assets/images/logo-dark.png);
+}
+
+.app__search-light-icon{
+  background-image: url(assets/images/search-light.png);
+}
+
+.app__search-white-icon{
+  background-image: url(assets/images/search-white.png);
+}
+
+
+.app__check-round-fill-icon{
+  background-image: url(assets/images/check-round-fill.png);
+}
+
+.app__check-ring-light-icon{
+  background-image: url(assets/images/check-ring-light.png);
+}
+
+.app__image-box-light-icon{
+  background-image: url(assets/images/image-box-light.png);
+}
+
+.app__close-icon{
+  background-image: url(assets/images/close.png);
+}
+
+.app__more-icon{
+  background-image: url(assets/images/more.png);
+}
+
+.app__favorite-fill-icon{
+  background-image: url(assets/images/favorite-fill.png);
+}
+
+.app__favorite-light-icon{
+  background-image: url(assets/images/favorite-light.png);
+}
+
+.app__up-light-icon{
+  background-image: url(assets/images/expand-up-light.png);
+}
+
+.app__down-light-icon{
+  background-image: url(assets/images/expand-down-light.png);
+}
+
+.app__comment-icon{
+  background-image: url(assets/images/chat-light.png);
+}
+
+.app__edit-icon{
+  background-image: url(assets/images/edit-light.png);
+}
+
+.app__image-box-white-icon {
+  background-image: url(assets/images/image-box-white-light.png);
+}
+
+.app__arrow-right-icon {
+  background-image: url(assets/images/arrow-right.png);
+}
